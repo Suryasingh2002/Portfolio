@@ -1,0 +1,16 @@
+#hero {
+  background-image: url('../images/sps1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(9, 1, 1);
+
+  #text-background {
+    background-color: rgba(255, 255, 255, 0.051);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    color: aliceblue;
+  }
+}

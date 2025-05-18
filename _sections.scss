@@ -1,0 +1,33 @@
+// Project Cards
+.card {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-title {
+    font-weight: 600;
+  }
+}
+
+// Progress Bars
+.progress-bar {
+  font-weight: 500;
+}
+
+// Resume Button
+a.btn-outline-info {
+  margin-top: 20px;
+}
+
+// Testimonials
+#testimonials .card {
+  border-left: 5px solid $primary;
+}
+
+// Blog
+#blog h5 {
+  font-weight: bold;
+}
