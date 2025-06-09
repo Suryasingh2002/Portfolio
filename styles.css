@@ -1,0 +1,45 @@
+/* Hero Section */
+#hero {
+  background-image: url("images/sps1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(9, 1, 1);
+}
+
+/* Section Backgrounds */
+#about, #projects, #skills, #contact, #footer, #ground, #testimonials, #blog {
+  background-color: rgb(33, 32, 32);
+  color: rgb(14, 191, 197);
+}
+
+/* Navbar Brand */
+#name {
+  color: rgb(14, 191, 197);
+}
+
+/* Hero Text Box */
+#text-background {
+  background-color: rgba(255, 255, 255, 0.051);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  color: aliceblue;
+}
+
+/* Light Mode Toggle */
+body.light-mode {
+  background-color: #f4f4f4;
+  color: #212121;
+}
+body.light-mode #about,
+body.light-mode #projects,
+body.light-mode #skills,
+body.light-mode #contact,
+body.light-mode #footer,
+body.light-mode #testimonials,
+body.light-mode #blog {
+  background-color: #ffffff;
+  color: #000;
+}
